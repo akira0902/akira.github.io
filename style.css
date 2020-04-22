@@ -1,0 +1,32 @@
+# akira.github.io
+body{
+    margin: 0;
+}
+header{
+    height: 200px;
+    background-color: aquamarine;
+}
+main{
+    height: 300px;
+    display: flex;
+    background-color: bisque;
+
+}
+footer{
+    height: 200px;
+    background-color: blue;
+}
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+.left ul{
+    margin: 0;padding:0;
+    list-style: none;
+}
+.left{
+    flex: 2;
+}
+.right{
+    flex: 1;
+}
